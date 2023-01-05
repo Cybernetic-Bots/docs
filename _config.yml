@@ -1,6 +1,7 @@
 remote_theme: easy-djs/docs-theme
 title: Cybernetic Bots
 favicon: favicon.ico
+markdown: GFM
 search_enabled: true
 search.previews: 3
 search.tokenizer_separator: /[\s/]+/
