@@ -38,11 +38,11 @@ For example if we had `example/commands/test` the main command file would be `ex
 ## Methods
 | Method | Description | Arguments | Returns |
 | --- | --- |
-| execute, autocomplete, button, modal, selectMenu | Set the function to run when a command is run, a button gets clicked, etc. for that command | data: Function | void |
+| execute, autocomplete, button, modal, selectMenu | Set the function to run when a command is run, a button gets clicked, etc. for that command | data Function | void |
 | setName | Set the name of the command | name: string | void |
-| setDescription | Set the description of the command | description: string | void |
-| setEnabled | Set if the command is enabled or not | enabled: boolean | void |
-| setOwnerOnly | Set if the command is module-owner only or not | ownerOnly: boolean | void |
+| setDescription | Set the description of the command | description string | void |
+| setEnabled | Set if the command is enabled or not | enabled boolean | void |
+| setOwnerOnly | Set if the command is module-owner only or not | ownerOnly boolean | void |
 
 ## Command Constructor
 Argument: `data: CommandConstructorArguments`
