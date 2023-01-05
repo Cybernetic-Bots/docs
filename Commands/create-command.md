@@ -13,16 +13,16 @@ Every command gets it's own folder. The folder name has to match the main comman
 For example if we had `example/commands/test` the main command file would be `example/commands/test/test.ts`
 
 # Command Class
-Properties | Methods
-name | execute
-description | autocomplete
-enabled | button
-ownerOnly | modal
-type | selectMenu
-| setName
-| setDescription
-| setEnabled
-| setOwnerOnly
+| Properties | Methods |
+| name | execute |
+| description | autocomplete |
+| enabled | button |
+| ownerOnly | modal |
+| type | selectMenu |
+| setName |
+| setDescription |
+| setEnabled | 
+| setOwnerOnly | 
 
 ## Properties
 
