@@ -14,15 +14,12 @@ For example if we had `example/commands/test` the main command file would be `ex
 
 # Command Class
 | Properties | Methods |
+| ---------- | ------- |
 | name | execute |
 | description | autocomplete |
 | enabled | button |
 | ownerOnly | modal |
 | type | selectMenu |
-| setName |
-| setDescription |
-| setEnabled | 
-| setOwnerOnly | 
 
 ## Properties
 
