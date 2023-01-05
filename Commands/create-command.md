@@ -28,21 +28,21 @@ For example if we had `example/commands/test` the main command file would be `ex
 ## Properties
 
 | Property | Description | Type |
-| --- | --- |
+| --- | --- | --- |
 | name | The command name | string | 
 | description | The command description | string |
-| enabled | Is the command enabled | True/False |
+| enabled | Is the command enabled | boolean |
 | ownerOnly | Is the command module-owner only | boolean |
 | type | The command type | CommandType |
 
 ## Methods
 | Method | Description | Arguments | Returns |
-| --- | --- |
+| --- | --- | --- | --- |
 | execute, autocomplete, button, modal, selectMenu | Set the function to run when a command is run, a button gets clicked, etc. for that command | data Function | void |
 | setName | Set the name of the command | name: string | void |
-| setDescription | Set the description of the command | description string | void |
-| setEnabled | Set if the command is enabled or not | enabled boolean | void |
-| setOwnerOnly | Set if the command is module-owner only or not | ownerOnly boolean | void |
+| setDescription | Set the description of the command | description: string | void |
+| setEnabled | Set if the command is enabled or not | enabled: boolean | void |
+| setOwnerOnly | Set if the command is module-owner only or not | ownerOnly: boolean | void |
 
 ## Command Constructor
 Argument: `data: CommandConstructorArguments`
@@ -60,6 +60,8 @@ ownerOnly?: boolean | null
 
 ## CommandType
 CommandType is an enum with the following options
+| Number | Name |
+| --- | --- |
 | 0 | SLASH |
 | 1 | MESSAGE |
 
@@ -70,12 +72,12 @@ CommandType is an enum with the following options
 
 ## Properties
 | Property | Description | Type |
-| --- | --- |
+| --- | --- | --- |
 | options | Discord slash command arguments | Discord.ApplicationCommandOption[] |
 
 ## Methods
 | Method | Description | Arguments | Return |
-| --- | --- |
+| --- | --- | --- | --- |
 | setOptions | Set the discord slash command arguments | options: Discord.ApplicationCommandOption[] | void |
 
 ## Slash Command Constructor
